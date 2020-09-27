@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9D9051825202D4F00F57C2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9051725202D4F00F57C2E /* AppDelegate.swift */; };
+		E9D9051A25202D4F00F57C2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9051925202D4F00F57C2E /* SceneDelegate.swift */; };
+		E9D9051C25202D4F00F57C2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9051B25202D4F00F57C2E /* ViewController.swift */; };
+		E9D9051F25202D4F00F57C2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D9051D25202D4F00F57C2E /* Main.storyboard */; };
+		E9D9052125202D5200F57C2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D9052025202D5200F57C2E /* Assets.xcassets */; };
+		E9D9052425202D5200F57C2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D9052225202D5200F57C2E /* LaunchScreen.storyboard */; };
+		E9D9052F25202D5200F57C2E /* Brain_FoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9052E25202D5200F57C2E /* Brain_FoodTests.swift */; };
+		E9D9053A25202D5200F57C2E /* Brain_FoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9053925202D5200F57C2E /* Brain_FoodUITests.swift */; };
+		E9D9054B25202F1600F57C2E /* NootropicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9054A25202F1600F57C2E /* NootropicDetailViewController.swift */; };
+		E9D9055025202F3600F57C2E /* DVTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9054F25202F3600F57C2E /* DVTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9D9052B25202D5200F57C2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9D9050C25202D4F00F57C2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9D9051325202D4F00F57C2E;
+			remoteInfo = "Brain Food";
+		};
+		E9D9053625202D5200F57C2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9D9050C25202D4F00F57C2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9D9051325202D4F00F57C2E;
+			remoteInfo = "Brain Food";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9D9051425202D4F00F57C2E /* Brain Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brain Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D9051725202D4F00F57C2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9D9051925202D4F00F57C2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9D9051B25202D4F00F57C2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9D9051E25202D4F00F57C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9D9052025202D5200F57C2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9D9052325202D5200F57C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9D9052525202D5200F57C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D9052A25202D5200F57C2E /* Brain FoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brain FoodTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D9052E25202D5200F57C2E /* Brain_FoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain_FoodTests.swift; sourceTree = "<group>"; };
+		E9D9053025202D5200F57C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D9053525202D5200F57C2E /* Brain FoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brain FoodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D9053925202D5200F57C2E /* Brain_FoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain_FoodUITests.swift; sourceTree = "<group>"; };
+		E9D9053B25202D5200F57C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D9054A25202F1600F57C2E /* NootropicDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NootropicDetailViewController.swift; sourceTree = "<group>"; };
+		E9D9054F25202F3600F57C2E /* DVTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9D9051125202D4F00F57C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D9052725202D5200F57C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D9053225202D5200F57C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9D9050B25202D4F00F57C2E = {
+			isa = PBXGroup;
+			children = (
+				E9D9051625202D4F00F57C2E /* Brain Food */,
+				E9D9052D25202D5200F57C2E /* Brain FoodTests */,
+				E9D9053825202D5200F57C2E /* Brain FoodUITests */,
+				E9D9051525202D4F00F57C2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9D9051525202D4F00F57C2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9D9051425202D4F00F57C2E /* Brain Food.app */,
+				E9D9052A25202D5200F57C2E /* Brain FoodTests.xctest */,
+				E9D9053525202D5200F57C2E /* Brain FoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9D9051625202D4F00F57C2E /* Brain Food */ = {
+			isa = PBXGroup;
+			children = (
+				E9D9051725202D4F00F57C2E /* AppDelegate.swift */,
+				E9D9051925202D4F00F57C2E /* SceneDelegate.swift */,
+				E9D9051B25202D4F00F57C2E /* ViewController.swift */,
+				E9D9051D25202D4F00F57C2E /* Main.storyboard */,
+				E9D9054A25202F1600F57C2E /* NootropicDetailViewController.swift */,
+				E9D9054F25202F3600F57C2E /* DVTableViewController.swift */,
+				E9D9052025202D5200F57C2E /* Assets.xcassets */,
+				E9D9052225202D5200F57C2E /* LaunchScreen.storyboard */,
+				E9D9052525202D5200F57C2E /* Info.plist */,
+			);
+			path = "Brain Food";
+			sourceTree = "<group>";
+		};
+		E9D9052D25202D5200F57C2E /* Brain FoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9D9052E25202D5200F57C2E /* Brain_FoodTests.swift */,
+				E9D9053025202D5200F57C2E /* Info.plist */,
+			);
+			path = "Brain FoodTests";
+			sourceTree = "<group>";
+		};
+		E9D9053825202D5200F57C2E /* Brain FoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9D9053925202D5200F57C2E /* Brain_FoodUITests.swift */,
+				E9D9053B25202D5200F57C2E /* Info.plist */,
+			);
+			path = "Brain FoodUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9D9051325202D4F00F57C2E /* Brain Food */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D9053E25202D5200F57C2E /* Build configuration list for PBXNativeTarget "Brain Food" */;
+			buildPhases = (
+				E9D9051025202D4F00F57C2E /* Sources */,
+				E9D9051125202D4F00F57C2E /* Frameworks */,
+				E9D9051225202D4F00F57C2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brain Food";
+			productName = "Brain Food";
+			productReference = E9D9051425202D4F00F57C2E /* Brain Food.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9D9052925202D5200F57C2E /* Brain FoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D9054125202D5200F57C2E /* Build configuration list for PBXNativeTarget "Brain FoodTests" */;
+			buildPhases = (
+				E9D9052625202D5200F57C2E /* Sources */,
+				E9D9052725202D5200F57C2E /* Frameworks */,
+				E9D9052825202D5200F57C2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9D9052C25202D5200F57C2E /* PBXTargetDependency */,
+			);
+			name = "Brain FoodTests";
+			productName = "Brain FoodTests";
+			productReference = E9D9052A25202D5200F57C2E /* Brain FoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9D9053425202D5200F57C2E /* Brain FoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D9054425202D5200F57C2E /* Build configuration list for PBXNativeTarget "Brain FoodUITests" */;
+			buildPhases = (
+				E9D9053125202D5200F57C2E /* Sources */,
+				E9D9053225202D5200F57C2E /* Frameworks */,
+				E9D9053325202D5200F57C2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9D9053725202D5200F57C2E /* PBXTargetDependency */,
+			);
+			name = "Brain FoodUITests";
+			productName = "Brain FoodUITests";
+			productReference = E9D9053525202D5200F57C2E /* Brain FoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9D9050C25202D4F00F57C2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E9D9051325202D4F00F57C2E = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E9D9052925202D5200F57C2E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E9D9051325202D4F00F57C2E;
+					};
+					E9D9053425202D5200F57C2E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E9D9051325202D4F00F57C2E;
+					};
+				};
+			};
+			buildConfigurationList = E9D9050F25202D4F00F57C2E /* Build configuration list for PBXProject "Brain Food" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9D9050B25202D4F00F57C2E;
+			productRefGroup = E9D9051525202D4F00F57C2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9D9051325202D4F00F57C2E /* Brain Food */,
+				E9D9052925202D5200F57C2E /* Brain FoodTests */,
+				E9D9053425202D5200F57C2E /* Brain FoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9D9051225202D4F00F57C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D9052425202D5200F57C2E /* LaunchScreen.storyboard in Resources */,
+				E9D9052125202D5200F57C2E /* Assets.xcassets in Resources */,
+				E9D9051F25202D4F00F57C2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D9052825202D5200F57C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D9053325202D5200F57C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9D9051025202D4F00F57C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D9055025202F3600F57C2E /* DVTableViewController.swift in Sources */,
+				E9D9051C25202D4F00F57C2E /* ViewController.swift in Sources */,
+				E9D9054B25202F1600F57C2E /* NootropicDetailViewController.swift in Sources */,
+				E9D9051825202D4F00F57C2E /* AppDelegate.swift in Sources */,
+				E9D9051A25202D4F00F57C2E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D9052625202D5200F57C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D9052F25202D5200F57C2E /* Brain_FoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D9053125202D5200F57C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D9053A25202D5200F57C2E /* Brain_FoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9D9052C25202D5200F57C2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9D9051325202D4F00F57C2E /* Brain Food */;
+			targetProxy = E9D9052B25202D5200F57C2E /* PBXContainerItemProxy */;
+		};
+		E9D9053725202D5200F57C2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9D9051325202D4F00F57C2E /* Brain Food */;
+			targetProxy = E9D9053625202D5200F57C2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9D9051D25202D4F00F57C2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D9051E25202D4F00F57C2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9D9052225202D5200F57C2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D9052325202D5200F57C2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9D9053C25202D5200F57C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9D9053D25202D5200F57C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9D9053F25202D5200F57C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brain Food/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LunarCodebase.Brain-Food";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9D9054025202D5200F57C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brain Food/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LunarCodebase.Brain-Food";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9D9054225202D5200F57C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brain FoodTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LunarCodebase.Brain-FoodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brain Food.app/Brain Food";
+			};
+			name = Debug;
+		};
+		E9D9054325202D5200F57C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brain FoodTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LunarCodebase.Brain-FoodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brain Food.app/Brain Food";
+			};
+			name = Release;
+		};
+		E9D9054525202D5200F57C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brain FoodUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LunarCodebase.Brain-FoodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brain Food";
+			};
+			name = Debug;
+		};
+		E9D9054625202D5200F57C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brain FoodUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LunarCodebase.Brain-FoodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brain Food";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9D9050F25202D4F00F57C2E /* Build configuration list for PBXProject "Brain Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D9053C25202D5200F57C2E /* Debug */,
+				E9D9053D25202D5200F57C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D9053E25202D5200F57C2E /* Build configuration list for PBXNativeTarget "Brain Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D9053F25202D5200F57C2E /* Debug */,
+				E9D9054025202D5200F57C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D9054125202D5200F57C2E /* Build configuration list for PBXNativeTarget "Brain FoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D9054225202D5200F57C2E /* Debug */,
+				E9D9054325202D5200F57C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D9054425202D5200F57C2E /* Build configuration list for PBXNativeTarget "Brain FoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D9054525202D5200F57C2E /* Debug */,
+				E9D9054625202D5200F57C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9D9050C25202D4F00F57C2E /* Project object */;
+}
