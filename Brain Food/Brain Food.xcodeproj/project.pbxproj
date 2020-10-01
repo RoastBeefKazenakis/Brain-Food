@@ -17,6 +17,7 @@
 		E9D9053A25202D5200F57C2E /* Brain_FoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9053925202D5200F57C2E /* Brain_FoodUITests.swift */; };
 		E9D9054B25202F1600F57C2E /* NootropicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9054A25202F1600F57C2E /* NootropicDetailViewController.swift */; };
 		E9D9055025202F3600F57C2E /* DVTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9054F25202F3600F57C2E /* DVTableViewController.swift */; };
+		E9DB711A25257821000A9160 /* Nootropic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB711925257821000A9160 /* Nootropic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E9D9053B25202D5200F57C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9D9054A25202F1600F57C2E /* NootropicDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NootropicDetailViewController.swift; sourceTree = "<group>"; };
 		E9D9054F25202F3600F57C2E /* DVTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVTableViewController.swift; sourceTree = "<group>"; };
+		E9DB711925257821000A9160 /* Nootropic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nootropic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				E9D9051925202D4F00F57C2E /* SceneDelegate.swift */,
 				E9D9051B25202D4F00F57C2E /* NootropicsListViewController.swift */,
 				E9D9051D25202D4F00F57C2E /* Main.storyboard */,
+				E9DB711925257821000A9160 /* Nootropic.swift */,
 				E9D9054A25202F1600F57C2E /* NootropicDetailViewController.swift */,
 				E9D9054F25202F3600F57C2E /* DVTableViewController.swift */,
 				E9D9052025202D5200F57C2E /* Assets.xcassets */,
@@ -267,6 +270,7 @@
 				E9D9055025202F3600F57C2E /* DVTableViewController.swift in Sources */,
 				E9D9051C25202D4F00F57C2E /* NootropicsListViewController.swift in Sources */,
 				E9D9054B25202F1600F57C2E /* NootropicDetailViewController.swift in Sources */,
+				E9DB711A25257821000A9160 /* Nootropic.swift in Sources */,
 				E9D9051825202D4F00F57C2E /* AppDelegate.swift in Sources */,
 				E9D9051A25202D4F00F57C2E /* SceneDelegate.swift in Sources */,
 			);
