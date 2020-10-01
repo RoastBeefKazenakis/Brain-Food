@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NootropicsListViewController: UIViewController, UITableViewCont {
 
     override func viewDidLoad() {
         super.viewDidLoad()

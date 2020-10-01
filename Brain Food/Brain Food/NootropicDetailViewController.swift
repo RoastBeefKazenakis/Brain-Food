@@ -27,3 +27,5 @@ class NootropicDetailViewController: UIViewController {
     */
 
 }
+
+

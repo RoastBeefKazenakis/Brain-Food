@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E9D9051825202D4F00F57C2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9051725202D4F00F57C2E /* AppDelegate.swift */; };
 		E9D9051A25202D4F00F57C2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9051925202D4F00F57C2E /* SceneDelegate.swift */; };
-		E9D9051C25202D4F00F57C2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9051B25202D4F00F57C2E /* ViewController.swift */; };
+		E9D9051C25202D4F00F57C2E /* NootropicsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9051B25202D4F00F57C2E /* NootropicsListViewController.swift */; };
 		E9D9051F25202D4F00F57C2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D9051D25202D4F00F57C2E /* Main.storyboard */; };
 		E9D9052125202D5200F57C2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D9052025202D5200F57C2E /* Assets.xcassets */; };
 		E9D9052425202D5200F57C2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D9052225202D5200F57C2E /* LaunchScreen.storyboard */; };
@@ -40,7 +40,7 @@
 		E9D9051425202D4F00F57C2E /* Brain Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brain Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D9051725202D4F00F57C2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9D9051925202D4F00F57C2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E9D9051B25202D4F00F57C2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9D9051B25202D4F00F57C2E /* NootropicsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NootropicsListViewController.swift; sourceTree = "<group>"; };
 		E9D9051E25202D4F00F57C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9D9052025202D5200F57C2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9D9052325202D5200F57C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 			children = (
 				E9D9051725202D4F00F57C2E /* AppDelegate.swift */,
 				E9D9051925202D4F00F57C2E /* SceneDelegate.swift */,
-				E9D9051B25202D4F00F57C2E /* ViewController.swift */,
+				E9D9051B25202D4F00F57C2E /* NootropicsListViewController.swift */,
 				E9D9051D25202D4F00F57C2E /* Main.storyboard */,
 				E9D9054A25202F1600F57C2E /* NootropicDetailViewController.swift */,
 				E9D9054F25202F3600F57C2E /* DVTableViewController.swift */,
@@ -265,7 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D9055025202F3600F57C2E /* DVTableViewController.swift in Sources */,
-				E9D9051C25202D4F00F57C2E /* ViewController.swift in Sources */,
+				E9D9051C25202D4F00F57C2E /* NootropicsListViewController.swift in Sources */,
 				E9D9054B25202F1600F57C2E /* NootropicDetailViewController.swift in Sources */,
 				E9D9051825202D4F00F57C2E /* AppDelegate.swift in Sources */,
 				E9D9051A25202D4F00F57C2E /* SceneDelegate.swift in Sources */,

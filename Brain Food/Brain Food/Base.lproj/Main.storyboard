@@ -8,16 +8,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Nootropics List View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Brain_Food" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="NootropicsListViewController" customModule="Brain_Food" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uu3-u0-hOx">
-                                <rect key="frame" x="0.0" y="233" width="414" height="629"/>
+                                <rect key="frame" x="0.0" y="158" width="414" height="704"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="QOc-gN-h0N">
@@ -39,7 +39,7 @@
                         <constraints>
                             <constraint firstItem="uu3-u0-hOx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6cF-M5-9yU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uu3-u0-hOx" secondAttribute="trailing" id="HZX-Vc-S5N"/>
-                            <constraint firstItem="uu3-u0-hOx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="145" id="LuQ-Qd-OK8"/>
+                            <constraint firstItem="uu3-u0-hOx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="LuQ-Qd-OK8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uu3-u0-hOx" secondAttribute="bottom" id="ofu-0k-Hpx"/>
                         </constraints>
                     </view>
@@ -58,7 +58,7 @@
         <!--Table View Controller-->
         <scene sceneID="LIU-iq-lVE">
             <objects>
-                <tableViewController id="dDF-sO-0bw" sceneMemberID="viewController">
+                <tableViewController id="dDF-sO-0bw" customClass="DVTableViewController" customModule="Brain_Food" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="eZD-Tw-Z9D">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,10 +83,10 @@
             </objects>
             <point key="canvasLocation" x="1773.913043478261" y="-533.03571428571422"/>
         </scene>
-        <!--View Controller-->
+        <!--Nootropic Detail View Controller-->
         <scene sceneID="5nC-pK-FVp">
             <objects>
-                <viewController id="09m-8r-TwO" sceneMemberID="viewController">
+                <viewController id="09m-8r-TwO" customClass="NootropicDetailViewController" customModule="Brain_Food" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WWw-2L-nSE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
